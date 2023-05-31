@@ -34,15 +34,15 @@ def recommendations(df):
     any(tile_item(x[0], x[1]) for x in zip(columns, items))
 
 def wrong_credentials():
-  st.sidebar.write('Wrong User-ID 😢')
+  st.sidebar.write('Wrong User-ID ')
 
 def welcome_user():
-  st.sidebar.write('Welcome to BookCrossing! 🥳 ')
-  st.sidebar.write('Start reading books to get more personalised recommendations 🧐')
+  st.sidebar.write('Welcome to BookCrossing!  ')
+  st.sidebar.write('Start reading books to get more personalised recommendations ')
   
 def already_added():
     st.sidebar.write('The user is already on your list!')
-    st.sidebar.write('Let\'s find another one! 😎')
+    st.sidebar.write('Let\'s find another one! ')
 
 def friend_not_found():
   st.sidebar.write('We couldn\'t find your friend!')
